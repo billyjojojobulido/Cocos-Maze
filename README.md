@@ -7,7 +7,7 @@
 
 # 开发环境
 
--   操作系统: Macos
+-   操作系统: MacOS
 -   游戏引擎: [Cocos Creator 2.4.7](https://www.cocos.com/creator)
 -   编程语言: TypeScript
 
