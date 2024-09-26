@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/scripts/helper/Point.ts"],"names":[],"mappings":"","file":"","sourceRoot":"/","sourcesContent":["export default interface Point {\n\tx: number;\n\ty: number;\n}\n"]}

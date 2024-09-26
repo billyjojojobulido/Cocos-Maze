@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "MazeGame",
+  "id": "5de24e98-46bb-4fc8-b6fc-61acd168854e",
+  "version": "2.4.7",
+  "isNew": false
+}
