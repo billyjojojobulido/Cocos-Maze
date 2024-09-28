@@ -1,31 +1,30 @@
 **Read this in other languages: [English](README.md), [中文](README_zh.md).**
 
-# 简介
+# Introduction
 
-我在 Cocos Creator 新手项目 [Star Catcher](https://github.com/cocos-creator/cocos-tutorial-first-game) 的基础上，开发了走迷宫的游戏。
+I developed a maze game based on the Cocos Creator beginner project [Star Catcher](https://github.com/cocos-creator/cocos-tutorial-first-game).
 
-迷宫的生成则借鉴了
-[liuyubobobo/Play-with-Algorithm-Visualization](https://github.com/liuyubobobo/Play-with-Algorithm-Visualization/tree/master/06-Maze-Generalization) 和 [Imymirror/maze-generalization](https://github.com/Imymirror/maze-generalization) 两位大佬的思路，采用的是 BFS(Breadth-First Search) 广度优先算法来非递归地生成随机迷宫地图。
+The maze generation is inspired by the ideas from [liuyubobobo/Play-with-Algorithm-Visualization](https://github.com/liuyubobobo/Play-with-Algorithm-Visualization/tree/master/06-Maze-Generalization) and [Imymirror/maze-generalization](https://github.com/Imymirror/maze-generalization). It uses the BFS (Breadth-First Search) algorithm to non-recursively generate a random maze map.
 
-# 开发环境
+# Development Environment
 
-- 操作系统: Macos
-- 游戏引擎: [Cocos Creator 2.4.7](https://www.cocos.com/creator)
-- 编程语言: TypeScript
+- Operating system: MacOS
+- Game engine: [Cocos Creator 2.4.7](https://www.cocos.com/creator)
+- Programming language: TypeScript
 
-# 开发难点
+# Development Challenges
 
-### 难点一：角色移动步长
+### Challenge 1: Character movement step size
 
-可以使用 cc.Tween 来确保角色每次移动固定步长, 因为角色和路径的宽度都是相等的，update()中根据时间计算节点 x,y 的值有可能会导致无法正确进入路径(差 1px 也会被墙挡住)，增加游戏难度。
+You can use `cc.Tween` to ensure the character moves a fixed step size each time. Since the character and the path have equal widths, calculating the x and y values of the node based on time in `update()` might cause the character to not correctly enter the path (even a 1px difference could block the character by the wall), increasing the game difficulty.
 
-### 难点二：随机迷宫
+### Challenge 2: Random maze
 
-使用 Queue 来生成迷宫正常来说应该每次都一样，可以参考[Imymirror](https://github.com/Imymirror/maze-generalization)的实现在 pop 队列的时候引入随机性避免每次生成的迷宫重复。
+Using a Queue to generate the maze should produce the same maze every time. You can refer to [Imymirror](https://github.com/Imymirror/maze-generalization)'s implementation to introduce randomness when popping the queue, avoiding the repetition of generated mazes.
 
-### 难点三：回收砖块
+### Challenge 3: Reusing bricks
 
-如果想要记录通关次数，就不能通过反复 loadScene 的方式来重开一局，因此需要手动 rebuild 整个迷宫，可以借助 NodePool 来减少砖块被反复 instantiate & destroy。
+If you want to keep track of the number of completions, you can't simply reload the scene to start a new game. Therefore, the entire maze must be manually rebuilt. You can use `NodePool` to reduce the need to repeatedly instantiate & destroy bricks.
 
 # LICENSE
 
