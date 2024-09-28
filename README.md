@@ -22,7 +22,7 @@ Maze size: 19 x 19
 
 ### Feature 2: Character Movement Control
 
-<img src="./img/maze-play-demo.gif" alt="Demo of the Maze Player Control" width="450">
+<img src="./img/maze-play-demo.gif" alt="Demo of the Maze Player Control" width="500">
 
 ### Feature 3: Level Tracking and Game Over
 

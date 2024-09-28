@@ -1,3 +1,5 @@
+**Read this in other languages: [English](README.md), [中文](README_zh.md).**
+
 # 简介
 
 我在 Cocos Creator 新手项目 [Star Catcher](https://github.com/cocos-creator/cocos-tutorial-first-game) 的基础上，开发了走迷宫的游戏。
@@ -21,7 +23,7 @@
 
 ### 功能二：人物的移动控制
 
-<img src="./img/maze-play-demo.gif" alt="Demo of the Maze Player Control" width="450">
+<img src="./img/maze-play-demo.gif" alt="Demo of the Maze Player Control" width="500">
 
 ### 功能三：关卡记录和游戏结束
 
