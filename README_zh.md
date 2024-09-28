@@ -1,3 +1,5 @@
+**Read this in other languages: [English](README.md), [中文](README_zh.md).**
+
 # 简介
 
 我在 Cocos Creator 新手项目 [Star Catcher](https://github.com/cocos-creator/cocos-tutorial-first-game) 的基础上，开发了走迷宫的游戏。
