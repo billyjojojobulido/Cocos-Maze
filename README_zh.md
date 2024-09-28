@@ -17,11 +17,11 @@
 
 迷宫大小: 19 \* 19
 
-![Demo of the Maze Display](./img/maze-display.png)
+<img src="./img/maze-display.png" alt="Demo of the Maze Display" width="400">
 
 ### 功能二：人物的移动控制
 
-![Demo of the Maze Player Control](./img/maze-play-demo.gif)
+<img src="./img/maze-play-demo.gif" alt="Demo of the Maze Player Control" width="450">
 
 ### 功能三：关卡记录和游戏结束
 
@@ -29,7 +29,7 @@
 
 - 当倒计时结束时，游戏人物仍未触发终点的碰撞回调函数，就会导致游戏结束 (Game Over)。
 
-![Demo of Game Over](./img/maze-game-over.png)
+<img src="./img/maze-game-over.png" alt="Demo of Game Over" width="400">
 
 # 开发难点
 

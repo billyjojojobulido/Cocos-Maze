@@ -18,11 +18,11 @@ The maze generation is inspired by the ideas from [liuyubobobo/Play-with-Algorit
 
 Maze size: 19 x 19
 
-![Demo of the Maze Display](./img/maze-display.png)
+<img src="./img/maze-display.png" alt="Demo of the Maze Display" width="400">
 
 ### Feature 2: Character Movement Control
 
-![Demo of the Maze Player Control](./img/maze-play-demo.gif)
+<img src="./img/maze-play-demo.gif" alt="Demo of the Maze Player Control" width="450">
 
 ### Feature 3: Level Tracking and Game Over
 
@@ -30,7 +30,7 @@ Maze size: 19 x 19
 
 - When the countdown ends and the character has not triggered the finish point's collision callback, the game will result in a Game Over.
 
-![Demo of Game Over](./img/maze-game-over.png)
+<img src="./img/maze-game-over.png" alt="Demo of Game Over" width="400">
 
 # Development Challenges
 
