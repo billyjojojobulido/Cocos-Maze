@@ -7,9 +7,29 @@
 
 # 开发环境
 
-- 操作系统: Macos
+- 操作系统: MacOS
 - 游戏引擎: [Cocos Creator 2.4.7](https://www.cocos.com/creator)
 - 编程语言: TypeScript
+
+# 主要功能
+
+### 功能一：生成迷宫并显示
+
+迷宫大小: 19 \* 19
+
+![Demo of the Maze Display](./img/maze-display.png)
+
+### 功能二：人物的移动控制
+
+![Demo of the Maze Player Control](./img/maze-play-demo.gif)
+
+### 功能三：关卡记录和游戏结束
+
+- 若人物在倒计时结束之前，碰撞了终点，则会在更新通关数后重建迷宫，并重置关卡。
+
+- 当倒计时结束时，游戏人物仍未触发终点的碰撞回调函数，就会导致游戏结束 (Game Over)。
+
+![Demo of Game Over](./img/maze-game-over.png)
 
 # 开发难点
 

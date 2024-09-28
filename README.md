@@ -12,6 +12,26 @@ The maze generation is inspired by the ideas from [liuyubobobo/Play-with-Algorit
 - Game engine: [Cocos Creator 2.4.7](https://www.cocos.com/creator)
 - Programming language: TypeScript
 
+# Main Features
+
+### Feature 1: Maze Generation and Display
+
+Maze size: 19 x 19
+
+![Demo of the Maze Display](./img/maze-display.png)
+
+### Feature 2: Character Movement Control
+
+![Demo of the Maze Player Control](./img/maze-play-demo.gif)
+
+### Feature 3: Level Tracking and Game Over
+
+- If the character reaches the finish point before the countdown ends, the maze will be regenerated, and the level will be reset after updating the completion count.
+
+- When the countdown ends and the character has not triggered the finish point's collision callback, the game will result in a Game Over.
+
+![Demo of Game Over](./img/maze-game-over.png)
+
 # Development Challenges
 
 ### Challenge 1: Character movement step size
